@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 /* Regole css per la classe container */
@@ -13,9 +14,32 @@
 
 /* Regole css per l'elemento header */
 header {
-    height: 100px;
-    background-color: #e579e6;
+    background-color: pink;
     margin-bottom: 20px;
+}
+
+header img {
+    height: 70px;
+    padding-right: 20px;
+    border-right: 1px solid #939393;
+}
+
+header ul {
+    font-size: 0;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #939393;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-right: 20px;
+
 }
 
 /* Regole css per l'elemento figure */
