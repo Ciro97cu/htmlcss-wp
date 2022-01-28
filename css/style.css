@@ -8,7 +8,7 @@
 
 /* Regole css per la classe container */
 .container {
-    width: 80%;
+    width: 90%;
     margin: 50px auto;    
 }
 
@@ -67,9 +67,6 @@ figure.sfondo, figure .overlay {
     font-size: 35px;
 }
 
-/* Regole css div classe head */
-
-
 /* Regole css main con elementi flottati */
 main {
     margin-bottom: 10px;
@@ -94,20 +91,20 @@ main {
 
 .immagine-lx{
     background-image: url(../img/img-1.jpg);
-    height: 200px;
+    height: 250px;
     background-position: center;
     border-radius: 10px;
 }
 
 .immagine-rx {
     background-image: url(../img/img-3.jpg);
-    height: 200px;
+    height: 250px;
     background-position: center;
     border-radius: 10px;
 }
 
 .lx .overlay, .rx .overlay, .cen .overlay{
-    height: 200px;
+    height: 250px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
@@ -118,7 +115,7 @@ main {
 
 .immagine-cen {
     background-image: url(../img/banner-2.jpg);
-    height: 200px;
+    height: 250px;
     background-position: center;
     border-radius: 10px;
 }
