@@ -24,6 +24,7 @@ header img {
     border-right: 1px solid #939393;
 }
 
+/* regola per rimuovere margine automatico tra gli li della ul */
 header ul {
     font-size: 0;
 }
@@ -43,10 +44,22 @@ header li {
 }
 
 /* Regole css per l'elemento figure */
-figure {
+figure.sfondo {
     height: 400px;
-    background-color: #e1d67a;
     margin-bottom: 20px;
+    background-image: url(../img/banner.jpg);  
+    background-position: center;
+}
+
+figure .overlay {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 240px 350px 0 30px;
+    color: white;
+}
+
+.overlay p:first-child{
+    font-size: 35px;
 }
 
 /* Regole css div classe head */
