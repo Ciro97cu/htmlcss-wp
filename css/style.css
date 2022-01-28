@@ -1,0 +1,68 @@
+/* Selettore universale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole css per la classe container */
+.container {
+    width: 80%;
+    margin: 50px auto;    
+}
+
+/* Regole css per l'elemento header */
+header {
+    height: 100px;
+    background-color: #e579e6;
+    margin-bottom: 20px;
+}
+
+/* Regole css per l'elemento figure */
+figure {
+    height: 400px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+/* Regole css div classe head */
+.head {
+    height: 80px;
+    background-color: #abcfe7;
+}
+
+/* Regole css main con elementi flottati */
+main {
+    background-color: #0186ff;
+    margin-bottom: 10px;
+}
+
+.float {
+    background-color: #abcfe7;
+    float: left;
+    height: 570px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.lx, .rx {
+    width: 25%;
+}
+
+.margin {
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    background-color: #8801fe;
+}
